@@ -255,7 +255,7 @@ body {
 
 .new-milkshakes {
   height: 800px;
-  background-image: url(../img/new-nagic-milkshakes.jpg);
+  background-image: url("img/new-nagic-milkshakes.jpg");
 }
 
 .new-milkshakes-container {
