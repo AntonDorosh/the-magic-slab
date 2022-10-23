@@ -1,1 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+.list {
+  list-style: none;
+}
+
+:root {
+  --main-bg-color: #FEC77E;
+  --accent-color: #CC2A41;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--main-bg-color);
+  width: 1440px;
+  height: 8142px;
+  margin: 0 auto;
+}
+
+
+.visually-hidden {
+  position: absolute;
+	position: absolute !important;
+	width: 1px !important;
+	height: 1px !important;
+	padding: 0 !important;
+	margin: -1px !important;
+	overflow: hidden !important;
+	clip: rect(0,0,0,0) !important;
+	white-space: nowrap !important;
+	border: 0 !important;
+}
+
+/* HEADER STYLES */
+.header {
+  border-bottom: 1px solid black;
+}
+
+.header-container {
+  height: 112px;
+  width: 1250px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-container ul {
+  display: flex;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 29px;
+  gap: 25px;
+}
+
+.header-container ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.header-container ul li a:hover {
+  color: var(--accent-color)
+}
+
+.header-container h1 {
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 1.5;
+  text-align: center;
+  color: var(--accent-color);
+}
+
+
+.header-container > a {
+  width: 150px;
+  height: 53px;
+  background-color: var(--accent-color);
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ECE9E9;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* FEATURES SECTION */
+
+.features {
+  height: 650px;
+}
+
+.features-container {
+  height: 650px;
+  width: 1250px;
+  margin: 0 auto;
+}
+
+.features-container p {
+  font-weight: 400;
+  font-size: 196px;
+  line-height: 1.03;
+  text-align: center;
+  color: var(--accent-color)
+}
+
+.features-container p:last-child {
+  position: relative;
+  bottom: 250px;
+  left: 95px;
+  width: 158px;
+  height: 55px;
+  font-size: 27px;
+  line-height: 1.01;
+  color: #BD571B;
+  text-transform: uppercase;
+}
+
+/* TASTES SECTION */
+
+.tastes {
+  height: 600px;
+}
+
+/* .tastes-cointainer {
+
+} */
+
+.tastes-cointainer ul {
+  display: flex;
+  align-items: center;
+}
+
+.tastes-cointainer li:first-child,
+.tastes-cointainer li:last-child {
+  width: 80px;
+  height: 96px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+/* FEATURED IN SECTION */
+
+.featured-in {
+  height: 416px;
+}
+
+.featured-in h2 {
+  font-weight: 400;
+  font-size: 31px;
+  line-height: 1.55;
+  text-align: center;
+  color: #CC2A41;
+  text-transform: uppercase;
+}
+
+.featured-in-container {
+  margin-top: 84px;
+}
+
+.featured-in-container ul {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+}
+
+/* BENEFITS SECTION */
+
+.benefits {
+  height: 1530px;
+  display: grid;
+  grid-template-columns: 2;
+}
+
+.benefits > div {
+
+}

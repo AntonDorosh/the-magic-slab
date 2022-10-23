@@ -5,75 +5,99 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Magic Slab</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <!-- Header content -->
-  <header>
-    <div>
-      <ul>
-        <li>menu</li>
-        <li>find us</li>
+  <header class="header">
+    <div class="header-container">
+      <ul class="list">
+        <li><a href="#">menu</a></li>
+        <li><a href="#">find us</a></li>
       </ul>
       <!-- Logo -->
       <h1>The Magic Slab</h1>
-      <a href="#contact-us">Contact us</a>
+      <a href="#contact-us"><span>Contact us</span></a>
     </div>
   </header>
   <!-- Main content -->
   <main>
     <!-- HOVER FOR FLAVORS -->
-    <section>
-      <h2>Features</h2>
-      <div>
+    <section class="features">
+      <h2 class="visually-hidden">Features</h2>
+      <div class="features-container">
         <p>Freshly</p>
         <p>Churned</p>
         <p>Every Day.</p>
-        <p>HOVER FOR FLAVORS</p>
+        <p>Hover for Flavors</p>
       </div>
     </section>
     <!-- TASTES OF ICE CREAM GALLERY -->
-    <section>
-      <h2>Tastes of ice cream gallery</h2>
-      <div>
-        <ul>
+    <section class="tastes">
+      <h2 class="visually-hidden">Tastes of ice cream gallery</h2>
+      <div class="tastes-cointainer">
+        <ul class="list">
+          <li><img src="./img/icon-slider-left.png" alt=""></li>
           <li><img src="./img/butter-cheap.png" alt=""></li>
           <li><img src="./img/chocolate-cheap.png" alt=""></li>
           <li><img src="./img/coffee.png" alt=""></li>
-          <li><img src="./img/chocolatte.png" alt=""></li>
+          <!-- <li><img src="./img/chocolatte.png" alt=""></li>
           <li><img src="./img/strawberry.png" alt=""></li>
-          <li><img src="./img/vanilla.png" alt=""></li>
+          <li><img src="./img/vanilla.png" alt=""></li> -->
+          <li><img src="./img/icon-slider-right.png" alt=""></li>
         </ul>
       </div>
     </section>
     <!-- FEATURED IN -->
-    <section>
+    <section class="featured-in">
       <h2>Featured in</h2>
-      <ul>
-        <li><img src="./img/featured-in-1.png" alt=""></li>
-        <li><img src="./img/featured-in-2.png" alt=""></li>
-        <li><img src="./img/featured-in-3.png" alt=""></li>
-        <li><img src="./img/featured-in-4.png" alt=""></li>
-      </ul>
+      <div class="featured-in-container">
+        <ul class="list">
+          <li><img src="./img/featured-in-1.png" alt=""></li>
+          <li><img src="./img/featured-in-2.png" alt=""></li>
+          <li><img src="./img/featured-in-3.png" alt=""></li>
+          <li><img src="./img/featured-in-4.png" alt=""></li>
+
+          <li><img src="./img/featured-in-1.png" alt=""></li>
+          <li><img src="./img/featured-in-2.png" alt=""></li>
+          <li><img src="./img/featured-in-3.png" alt=""></li>
+          <li><img src="./img/featured-in-4.png" alt=""></li>
+
+          <li><img src="./img/featured-in-1.png" alt=""></li>
+          <li><img src="./img/featured-in-2.png" alt=""></li>
+          <li><img src="./img/featured-in-3.png" alt=""></li>
+          <li><img src="./img/featured-in-4.png" alt=""></li>
+        </ul>
+      </div>
     </section>
     <!-- BENEFITS -->
-    <section>
-      <h2>Benefits</h2>
+    <section class="benefits">
+      <h2 class="visually-hidden">Benefits</h2>
       <!-- Subsection one -->
       <div>
-        <p>We only use the highest quality ingredients</p>
-        <p>The Slab is based on a simple, nostalgic idea: paying tribute to the original American ice cream parlor – built on quality ice cream, delicious toppings and a fun and inviting experience.</p>
-        <img src="./img/benefits-1.jpg" alt="">
+        <div class="text-wrapper">
+          <p>We only use the highest quality ingredients</p>
+          <p>The Slab is based on a simple, nostalgic idea: paying tribute to the original American ice cream parlor – built on quality ice cream, delicious toppings and a fun and inviting experience.</p>
+        </div>
+        <img width="509" height="509" src="./img/benefits-1.jpg" alt="">
       </div>
       <!-- Subsection two -->
       <div>
-        <p>Supporting our local farmers</p>
-        <p>Ice cream with the look and taste of an old favorite. Every bite melts in your mouth to leave a creamy, rich aftertaste. All of this is a direct result of our support for local farms with the best ingredients. Supplied fresh every morning, for every batch.</p>
+        <div class="text-wrapper">
+          <p>Supporting our local farmers</p>
+          <p>Ice cream with the look and taste of an old favorite. Every bite melts in your mouth to leave a creamy, rich aftertaste. All of this is a direct result of our support for local farms with the best ingredients. Supplied fresh every morning, for every batch.</p>
+        </div>
         <img src="./img/benefits-2.jpg" alt="">
       </div>
       <!-- Subsection three -->
       <div>
-        <p>Special flavors added every week</p>
-        <p>Participate in our Weekly Magic Flavor competition on Instagram and have your creative flavor added to the menu — for an ENTIRE month! If your flavor is selected, you receive 10 free cones on us!</p>
+        <div class="text-wrapper"> 
+          <p>Special flavors added every week</p>
+          <p>Participate in our Weekly Magic Flavor competition on Instagram and have your creative flavor added to the menu — for an ENTIRE month! If your flavor is selected, you receive 10 free cones on us!</p>
+        </div>
         <img src="./img/benefits-3.jpg" alt="">
       </div>
     </section>
